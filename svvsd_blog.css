@@ -1,0 +1,140 @@
+/* Base styling */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  background-color: #ffffff;
+  color: #000;
+  margin: 0;
+  padding: 0 1rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* Header and logo */
+header {
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+  background-color: #ffffff;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  color: #800000;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.author {
+  color: #333;
+  font-style: italic;
+}
+
+/* Main content */
+main {
+  margin: 2rem 0;
+}
+
+/* Paragraph styling */
+p {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  text-indent: 2em;
+}
+
+/* Side-by-side layout for paragraphs and images */
+.text-image-block {
+  display: flex;
+  align-items: center; /* Vertical centering of image and text */
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+
+.text-image-block > p:first-child {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+
+.text-image-block.reverse {
+  flex-direction: row-reverse;
+}
+
+.text-image-block p {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  text-indent: 2em;
+}
+
+/* Makes all images next to paragraphs 1, 3, and 5 */
+.side-image {
+  width: 220px;
+  max-width: 40%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Perimeter/border styles */
+.perimeter-light {
+  border: 4px solid #800000;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.perimeter-dark {
+  border: 4px solid #000;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+/* Smaller image (only for first image) */
+.small-image {
+  width: 160px;
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+  body {
+    padding: 0 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .text-image-block,
+  .text-image-block.reverse {
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+  }
+
+  .side-image {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  p {
+    text-indent: 0;
+  }
+}
+
+@media (min-width: 701px) {
+  .small-image {
+    width: 160px;
+  }
+}
+.date {
+  color: #555;
+  font-style: italic;
+  margin-top: -1em;
+}

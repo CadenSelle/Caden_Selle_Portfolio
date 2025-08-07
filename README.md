@@ -1,6 +1,6 @@
 # Portfolio Website - [cadenselle.com](https://cadenselle.com)
 
-This is my personal portfolio website, built using HTML and CSS. Deployed using multiple AWS services
+This is my personal portfolio website, built using HTML and CSS. The website was deployed using multiple AWS services
 to gain real-world experience with cloud infrastructure and security best practices. 
 
 The goal of this project was to learn how to deploy a fully static, secure, and globally distributed website using:
@@ -17,7 +17,7 @@ The goal of this project was to learn how to deploy a fully static, secure, and 
   * **Custom Domain** - Registered and routed through Route 53 (cadenselle.com and www.cadenselle.com)
   * **Budgets** - Created an AWS Budget with alerts sent via SNS when usage hits 80% or 100% of the monthly budget
   * **Monitoring and Alerts:**
-      * **CloudWatch Syntehtics Canary** runs daily uptime checks and stores logs to a dedicated S3 bucket with a lifecycle policy to optimize storage and costs
+      * **CloudWatch Synthetics Canary** runs daily uptime checks and stores logs to a dedicated S3 bucket with a lifecycle policy to optimize storage and costs
       * **CloudWatch Alarm** is triggered if uptime check fails and sends a notification via SNS
   * **AWS CloudTrail** tracks and records all account-level API activity, with logs stored securely
   * **Security and IAM**:

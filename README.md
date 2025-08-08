@@ -29,5 +29,5 @@ The goal of this project was to learn how to deploy a fully static, secure, and 
       * Configured **S3 Bucket Policies** to ensure only AWS services (Synthetics and CloudTrail) can write to dedicated logging S3 buckets
 
 ## Future Plans:
-I plan to expand the website with blog posts, academic achievements, and technical documentation.  
+I plan to expand the website with academic achievements, technical documentation, and future projects.  
 Eventually, I will automate deployments using AWS CodePipeline or GitHub Actions for continuous delivery.

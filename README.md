@@ -17,7 +17,7 @@ The goal of this project was to learn how to deploy a fully static, secure, and 
   * **Frontend** - Built using HTML and CSS
   * **Static Hosting** - Hosted on Amazon S3
   * **Content Delivery** - Distributed via Amazon CloudFront for global low-latency performance
-  * **Custom Domain** - Registered and routed through Route 53 (cadenselle.com and www.cadenselle.com)
+  * **Custom Domain** - Registered and routed through Route 53 (`cadenselle.com` and `www.cadenselle.com`)
   * **Budgets** - Created an AWS Budget with alerts sent via SNS when usage hits 80% or 100% of the monthly budget
   * **Monitoring and Alerts:**
       * **CloudWatch Synthetics Canary** runs daily uptime checks and stores logs to a dedicated S3 bucket with a lifecycle policy to optimize storage and costs

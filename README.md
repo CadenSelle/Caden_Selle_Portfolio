@@ -9,6 +9,8 @@ The goal of this project was to learn how to deploy a fully static, secure, and 
 - Route 53 (custom domain and DNS)
 - Certificate Manager/ACM (SSL/TLS certificate)
 - CloudWatch and CloudTrail (monitoring, alerting, and logging)
+
+## AWS Static Website Deployment, Monitoring, and Logging Architecture:
 <img src="AWS_Cloud_Architecture_Flow_Chart.png" alt="Architecture Diagram" width="600"/>
 
 ## Tools and Features:
